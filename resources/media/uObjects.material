@@ -1,0 +1,14 @@
+material wireframe
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			polygon_mode wireframe
+			cull_hardware none
+			cull_software none
+			lighting off
+		}
+	}
+}

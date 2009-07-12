@@ -1,0 +1,132 @@
+Rocket2
+{
+  material        	Examples/Flare
+  particle_width  	5
+  particle_height 	5
+  cull_each       	true
+  quota           	50
+  billboard_type  	point
+  sorted				true
+  local_space		false
+
+  emitter Point
+  {
+    colour				0.1 0.1 0.1 0.8
+	angle               		0
+    emission_rate       		20
+    time_to_live        		10
+    direction           		0 0 1
+    velocity_min        		0
+    velocity_max        		0    	
+    position		0 0 0
+  }
+ 
+  affector Scaler
+  {
+   	rate 	6
+  }
+}
+
+// Example particle systems
+
+// smoke
+Rocket
+{
+    	material        	Examples/Smoke
+    	particle_width  	5
+    	particle_height 	5
+    	cull_each       	true
+    	quota           	500
+    	billboard_type  	point
+		sorted				true
+    
+    	// Area emitter
+    	emitter Point
+    	{
+		angle               		11
+        	emission_rate       		25
+        	time_to_live        		1
+        	direction           		0 0 1
+        	velocity_min        		10
+        	velocity_max        		30  	
+	}
+
+	affector ColourImage
+	{
+		image		smokecolors.png
+	}
+
+   	affector Rotator
+   	{
+        	rotation_range_start  		0
+        	rotation_range_end   	 	360
+        	rotation_speed_range_start  	-60
+        	rotation_speed_range_end    	80
+   	}
+
+   	affector Scaler
+   	{
+       	rate 	10
+   	}
+
+}
+
+
+Space/Sun
+{
+	material Examples/Flare
+	particle_width	200
+	particle_height	200
+	cull_each	false
+	quota		100
+	billboard_type	point
+	local_space 	true
+
+	emitter Ellipsoid
+	{
+		angle		30
+		emission_rate	30
+		time_to_live_min	2
+		time_to_live_max	5
+		direction		0	1	0
+		velocity		0.001
+		colour			0.15	0.1	0.0
+		width			5
+		height			5
+		depth			5
+	}
+	affector ColourFader
+	{
+		red	-0.010
+		green	-0.025
+		blue	-0.025
+	}
+}
+Weapon/Sunbeam
+{
+	material Examples/Flare
+	particle_width	10
+	particle_height	10
+	cull_each	false
+	quota		100
+	billboard_type	point
+	local_space 	false
+
+	emitter Ellipsoid
+	{
+		angle		30
+		emission_rate	30
+		time_to_live_min	1
+		time_to_live_max	2
+		colour			0.15	0.1	0.0
+		width			5
+		height			5
+		depth			5
+	}
+	affector ColourFader
+	{
+		red	-0.010
+		green	-0.025
+		blue	-0.025
+	}
+}

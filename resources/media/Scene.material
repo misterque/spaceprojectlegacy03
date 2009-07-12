@@ -1,0 +1,19 @@
+material Material
+{
+	receive_shadows off
+	technique
+	{
+		pass
+		{
+			lighting off
+			ambient 1.0 1.0 1.0
+			diffuse vertexcolour
+			cull_hardware none
+			depth_check off
+			depth_write off
+		}
+	
+
+
+	}
+}

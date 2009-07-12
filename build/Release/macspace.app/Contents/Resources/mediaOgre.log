@@ -1,0 +1,802 @@
+17:33:48: Creating resource group General
+17:33:48: Creating resource group Internal
+17:33:48: Creating resource group Autodetect
+17:33:48: SceneManagerFactory for type 'DefaultSceneManager' registered.
+17:33:48: Registering ResourceManager for type Material
+17:33:48: Registering ResourceManager for type Mesh
+17:33:48: Registering ResourceManager for type Skeleton
+17:33:48: MovableObjectFactory for type 'ParticleSystem' registered.
+17:33:48: OverlayElementFactory for type Panel registered.
+17:33:48: OverlayElementFactory for type BorderPanel registered.
+17:33:48: OverlayElementFactory for type TextArea registered.
+17:33:48: Registering ResourceManager for type Font
+17:33:48: ArchiveFactory for archive type FileSystem registered.
+17:33:48: ArchiveFactory for archive type Zip registered.
+17:33:48: FreeImage version: 3.9.1
+17:33:48: This program uses FreeImage, a free, open source image library supporting all common bitmap formats. See http://freeimage.sourceforge.net for details
+17:33:48: Supported formats: bmp,ico,jpg,jif,jpeg,jpe,jng,koa,iff,lbm,mng,pbm,pbm,pcd,pcx,pgm,pgm,png,ppm,ppm,ras,tga,targa,tif,tiff,wap,wbmp,wbm,psd,cut,xbm,xpm,gif,hdr,g3,sgi
+17:33:48: DDS codec registering
+17:33:48: Registering ResourceManager for type HighLevelGpuProgram
+17:33:48: Registering ResourceManager for type Compositor
+17:33:48: MovableObjectFactory for type 'Entity' registered.
+17:33:48: MovableObjectFactory for type 'Light' registered.
+17:33:48: MovableObjectFactory for type 'BillboardSet' registered.
+17:33:48: MovableObjectFactory for type 'ManualObject' registered.
+17:33:48: MovableObjectFactory for type 'BillboardChain' registered.
+17:33:48: MovableObjectFactory for type 'RibbonTrail' registered.
+17:33:48: *-*-* OGRE Initialising
+17:33:48: *-*-* Version 1.4.4 (Eihort)
+17:33:48: Loading library RenderSystem_GL
+17:33:48: Installing plugin: GL RenderSystem
+17:33:48: OpenGL Rendering Subsystem created.
+17:33:49: Plugin successfully installed
+17:33:49: Loading library Plugin_OctreeSceneManager
+17:33:49: Installing plugin: Octree & Terrain Scene Manager
+17:33:49: Plugin successfully installed
+17:33:49: Loading library Plugin_ParticleFX
+17:33:49: Installing plugin: ParticleFX
+17:33:49: Particle Emitter Type 'Point' registered
+17:33:49: Particle Emitter Type 'Box' registered
+17:33:49: Particle Emitter Type 'Ellipsoid' registered
+17:33:49: Particle Emitter Type 'Cylinder' registered
+17:33:49: Particle Emitter Type 'Ring' registered
+17:33:49: Particle Emitter Type 'HollowEllipsoid' registered
+17:33:49: Particle Affector Type 'LinearForce' registered
+17:33:49: Particle Affector Type 'ColourFader' registered
+17:33:49: Particle Affector Type 'ColourFader2' registered
+17:33:49: Particle Affector Type 'ColourImage' registered
+17:33:49: Particle Affector Type 'ColourInterpolator' registered
+17:33:49: Particle Affector Type 'Scaler' registered
+17:33:49: Particle Affector Type 'Rotator' registered
+17:33:49: Particle Affector Type 'DirectionRandomiser' registered
+17:33:49: Particle Affector Type 'DeflectorPlane' registered
+17:33:49: Plugin successfully installed
+17:33:49: CPU Identifier & Features
+17:33:49: -------------------------
+17:33:49:  *   CPU ID: GenuineIntel: Genuine Intel(R) CPU            1400  @ 1.83GHz
+17:33:49:  *      SSE: yes
+17:33:49:  *     SSE2: yes
+17:33:49:  *     SSE3: yes
+17:33:49:  *      MMX: yes
+17:33:49:  *   MMXEXT: yes
+17:33:49:  *    3DNOW: no
+17:33:49:  * 3DNOWEXT: no
+17:33:49:  *     CMOV: yes
+17:33:49:  *      TSC: yes
+17:33:49:  *      FPU: yes
+17:33:49:  *      PRO: yes
+17:33:49:  *       HT: no
+17:33:49: -------------------------
+17:33:49: *******************************************
+***    Starting OSX OpenGL Subsystem    ***
+*******************************************
+17:33:49: GLRenderSystem::createRenderWindow "macspace", 800x600 windowed  miscParams: FSAA=0 title=macspace 
+17:33:49: Creating a Carbon Compatible Render System
+17:33:49: GL_VERSION = 1.2 APPLE-1.5.44
+17:33:49: GL_VENDOR = Intel Inc.
+17:33:49: GL_RENDERER = Intel GMA 950 OpenGL Engine
+17:33:49: GL_EXTENSIONS = GL_ARB_transpose_matrix GL_ARB_vertex_program GL_ARB_vertex_blend GL_ARB_window_pos GL_ARB_shader_objects GL_ARB_vertex_shader GL_ARB_shading_language_100 GL_EXT_multi_draw_arrays GL_EXT_clip_volume_hint GL_EXT_rescale_normal GL_EXT_draw_range_elements GL_EXT_fog_coord GL_EXT_gpu_program_parameters GL_EXT_geometry_shader4 GL_EXT_transform_feedback GL_APPLE_client_storage GL_APPLE_specular_vector GL_APPLE_transform_hint GL_APPLE_packed_pixels GL_APPLE_fence GL_APPLE_vertex_array_object GL_APPLE_vertex_program_evaluators GL_APPLE_element_array GL_APPLE_flush_render GL_APPLE_aux_depth_stencil GL_NV_texgen_reflection GL_NV_light_max_exponent GL_IBM_rasterpos_clip GL_SGIS_generate_mipmap GL_ARB_texture_border_clamp GL_ARB_multitexture GL_ARB_texture_env_add GL_ARB_texture_cube_map GL_ARB_texture_env_dot3 GL_ARB_texture_env_combine GL_ARB_texture_compression GL_ARB_texture_mirrored_repeat GL_ARB_shadow GL_ARB_depth_texture GL_ARB_fragment_program GL_ARB_fragment_program_shadow GL_ARB_fragment_shader GL_ARB_point_sprite GL_ARB_texture_non_power_of_two GL_ARB_vertex_buffer_object GL_ARB_pixel_buffer_object GL_EXT_framebuffer_object GL_EXT_texture_rectangle GL_ARB_texture_rectangle GL_EXT_texture_env_add GL_EXT_blend_color GL_EXT_blend_minmax GL_EXT_blend_subtract GL_EXT_texture_lod_bias GL_EXT_abgr GL_EXT_bgra GL_EXT_stencil_wrap GL_EXT_texture_filter_anisotropic GL_EXT_separate_specular_color GL_EXT_secondary_color GL_EXT_blend_func_separate GL_EXT_shadow_funcs GL_EXT_stencil_two_side GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_dxt1 GL_EXT_blend_equation_separate GL_EXT_packed_depth_stencil GL_APPLE_flush_buffer_range GL_APPLE_ycbcr_422 GL_APPLE_vertex_array_range GL_APPLE_texture_range GL_APPLE_pixel_buffer GL_APPLE_object_purgeable GL_NV_blend_square GL_ATI_texture_env_combine3 GL_SGIS_texture_edge_clamp GL_SGIS_texture_lod 
+17:33:49: ***************************
+17:33:49: *** GL Renderer Started ***
+17:33:49: ***************************
+17:33:49: Registering ResourceManager for type GpuProgram
+17:33:49: GLSL support detected
+17:33:49: GL: Using PBuffers for rendering to textures
+17:33:49: RenderSystem capabilities
+17:33:49: -------------------------
+17:33:49:  * Hardware generation of mipmaps: yes
+17:33:49:  * Texture blending: yes
+17:33:49:  * Anisotropic texture filtering: yes
+17:33:49:  * Dot product texture operation: yes
+17:33:49:  * Cube mapping: yes
+17:33:49:  * Hardware stencil buffer: yes
+17:33:49:    - Stencil depth: 8
+17:33:49:    - Two sided stencil support: yes
+17:33:49:    - Wrap stencil values: yes
+17:33:49:  * Hardware vertex / index buffers: yes
+17:33:49:  * Vertex programs: yes
+17:33:49:    - Max vertex program version: arbvp1
+17:33:49:  * Fragment programs: yes
+17:33:49:    - Max fragment program version: arbfp1
+17:33:49:  * Texture Compression: yes
+17:33:49:    - DXT: yes
+17:33:49:    - VTC: no
+17:33:49:  * Scissor Rectangle: yes
+17:33:49:  * Hardware Occlusion Query: no
+17:33:49:  * User clip planes: yes
+17:33:49:  * VET_UBYTE4 vertex element type: yes
+17:33:49:  * Infinite far plane projection: yes
+17:33:49:  * Hardware render-to-texture: yes
+17:33:49:  * Floating point textures: no
+17:33:49:  * Non-power-of-two textures: yes
+17:33:49:  * Volume textures: yes
+17:33:49:  * Multiple Render Targets: 1
+17:33:49:  * Point Sprites: yes
+17:33:49:  * Extended point parameters: no
+17:33:49:  * Max Point Size: 64
+17:33:49:  * Vertex texture fetch: yes
+17:33:49:    - Max vertex textures: 16
+17:33:49:    - Vertex textures shared: yes
+17:33:49: Registering ResourceManager for type Texture
+17:33:49: ResourceBackgroundQueue - threading disabled
+17:33:49: Particle Renderer Type 'billboard' registered
+17:33:49: SceneManagerFactory for type 'OctreeSceneManager' registered.
+17:33:49: SceneManagerFactory for type 'TerrainSceneManager' registered.
+17:33:49: Added resource location '/Users/misterque/Desktop/Studium/freeshit/spaceprojectlegacies/spaceprojectlegacy03/build/Release/macspace.app/Contents/Resources/media' of type 'FileSystem' to resource group 'General'
+17:33:49: Parsing scripts for resource group Autodetect
+17:33:49: Finished parsing scripts for resource group Autodetect
+17:33:49: Parsing scripts for resource group General
+17:33:49: Parsing script Example.material
+17:33:49: Parsing script Fighter.material
+17:33:49: Parsing script Gunship.material
+17:33:49: Parsing script NewSkyBox.material
+17:33:49: Parsing script rocket.material
+17:33:49: Parsing script Scene.material
+17:33:49: Parsing script Stars.material
+17:33:49: Parsing script uObjects.material
+17:33:49: Parsing script Example.particle
+17:33:49: Parsing script rocket.particle
+17:33:49: Parsing script ship.particle
+17:33:49: Finished parsing scripts for resource group General
+17:33:49: Parsing scripts for resource group Internal
+17:33:49: Finished parsing scripts for resource group Internal
+17:33:49: Creating viewport on target 'macspace', rendering from camera 'macspaceCamera', relative dimensions L: 0.00 T: 0.00 W: 1.00 H: 1.00 ZOrder: 0
+17:33:49: Texture: crosshair.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 6 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+17:33:49: NULL
+17:33:49: Mesh: Loading SkySphere.mesh.
+17:33:49: Texture: stars2.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 6 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+17:33:49: Texture: star.png: Loading 1 faces(PF_A8R8G8B8,48x48x1) with 5 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,48x48x1.
+17:33:49: Texture: stars3.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 6 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+17:33:49: Texture: stars4.png: Loading 1 faces(PF_A8R8G8B8,64x64x1) with 6 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,64x64x1.
+17:33:49: Mesh: Loading Fighter.mesh.
+17:33:49: Texture: sfighter_Cube.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 10 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+17:33:49: Mesh: Loading uCube.mesh.
+17:33:49: Mesh: Loading gunship.mesh.
+17:33:49: Texture: gunship_texture.jpg: Loading 1 faces(PF_R8G8B8,1024x1024x1) with 10 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,1024x1024x1.
+17:33:50: Texture: flare.png: Loading 1 faces(PF_R8G8B8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_X8R8G8B8,256x256x1.
+17:34:14: Mesh: Loading Sphere.001.mesh.
+17:34:14: Texture: smoke.png: Loading 1 faces(PF_A8R8G8B8,256x256x1) with 8 hardware generated mipmaps from Image. Internal format is PF_A8R8G8B8,256x256x1.
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:34:35: kontakt
+17:34:35: test1
+17:34:35: test2
+17:41:17: kontakt
+17:41:17: Object19
+17:41:17: test2
+17:41:20: kontakt
+17:41:20: Object22
+17:41:20: test2
+17:41:23: kontakt
+17:41:23: Object25
+17:41:23: test2
+17:41:30: kontakt
+17:41:30: Object28
+17:41:30: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:31: kontakt
+17:42:31: test1
+17:42:31: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:32: kontakt
+17:42:32: test1
+17:42:32: test2
+17:42:33: kontakt
+17:42:33: test1
+17:42:33: test2
+17:43:22: -0.595949/0.187285/-0.780877
+17:43:23: -0.654608/0.179518/-0.734344
+17:43:23: kontakt
+17:43:23: Object33
+17:43:23: test2
+17:43:24: -0.662451/0.239265/-0.709867
+17:43:24: kontakt
+17:43:24: Object35
+17:43:24: test2
+17:43:26: -0.673306/0.232575/-0.701832
+17:43:26: kontakt
+17:43:26: Object37
+17:43:26: test2
+17:43:26: -0.661683/0.204017/-0.721494
+17:43:27: kontakt
+17:43:27: Object39
+17:43:27: test2
+17:43:27: -0.655582/0.201932/-0.727624
+17:43:27: kontakt
+17:43:27: Object41
+17:43:27: test2
+17:43:28: -0.664866/0.224838/-0.712321
+17:43:28: kontakt
+17:43:28: Object43
+17:43:28: test2
+17:43:28: -0.629243/0.191479/-0.753252
+17:43:29: kontakt
+17:43:29: Object45
+17:43:29: test2
+17:43:29: -0.655245/0.196378/-0.729445
+17:43:29: kontakt
+17:43:29: Object47
+17:43:29: test2
+17:43:30: -0.665777/0.224951/-0.711434
+17:43:30: kontakt
+17:43:30: Object49
+17:43:30: test2
+17:43:30: -0.686604/0.228154/-0.690305
+17:43:31: kontakt
+17:43:31: Object51
+17:43:31: test2
+17:43:31: -0.681271/0.284948/-0.674296
+17:43:31: kontakt
+17:43:31: Object53
+17:43:31: test2
+17:43:32: -0.702487/0.25161/-0.665736
+17:43:33: kontakt
+17:43:33: Object55
+17:43:33: test2
+17:43:34: -0.713854/0.178026/-0.677288
+17:43:35: kontakt
+17:43:35: Object57
+17:43:35: test2
+17:43:35: -0.658418/0.269239/-0.702848
+17:43:36: kontakt
+17:43:36: Object59
+17:43:36: test2
+17:43:36: -0.684172/0.232419/-0.691296
+17:43:36: kontakt
+17:43:36: Object61
+17:43:36: test2
+17:43:38: -0.725802/0.155578/-0.67008
+17:43:46: -0.590372/0.227508/-0.774404
+17:43:46: kontakt
+17:43:46: Object65
+17:43:46: test2
+17:43:49: -0.566165/0.23235/-0.790867
+17:43:50: -0.543716/0.216571/-0.810845
+17:43:51: -0.587748/0.235208/-0.774099
+17:43:51: kontakt
+17:43:51: Object71
+17:43:51: test2
+17:43:51: -0.634187/0.200772/-0.746657
+17:43:51: kontakt
+17:43:51: Object73
+17:43:51: test2
+17:43:53: -0.7041/0.215704/-0.676547
+17:43:53: kontakt
+17:43:53: Object75
+17:43:53: test2
+17:44:23: -0.667073/0.271457/-0.693776
+17:44:23: kontakt
+17:44:23: Object77
+17:44:23: test2
+17:44:26: -0.670771/0.282976/-0.685558
+17:44:26: kontakt
+17:44:26: Object79
+17:44:26: test2
+17:44:26: -0.630626/0.219948/-0.744267
+17:44:27: kontakt
+17:44:27: Object81
+17:44:27: test2
+17:44:28: -0.639073/0.231261/-0.733556
+17:44:28: kontakt
+17:44:28: Object83
+17:44:28: test2
+17:44:28: -0.655009/0.30385/-0.691837
+17:44:29: kontakt
+17:44:29: Object85
+17:44:29: test2
+17:44:29: -0.663244/0.355677/-0.658485
+17:44:29: kontakt
+17:44:29: Object87
+17:44:29: test2
+17:44:29: -0.674715/0.320785/-0.664724
+17:44:29: kontakt
+17:44:29: Object89
+17:44:29: test2
+17:44:29: -0.689565/0.233695/-0.685484
+17:44:30: kontakt
+17:44:30: Object91
+17:44:30: test2
+17:44:56: *-*-* OGRE Shutdown
+17:44:56: Unregistering ResourceManager for type Compositor
+17:44:56: Unregistering ResourceManager for type Font
+17:44:56: Unregistering ResourceManager for type Skeleton
+17:44:56: Unregistering ResourceManager for type Mesh
+17:44:56: Unregistering ResourceManager for type HighLevelGpuProgram
+17:44:56: Uninstalling plugin: ParticleFX
+17:44:56: Plugin successfully uninstalled
+17:44:56: Unloading library Plugin_ParticleFX
+17:44:56: Uninstalling plugin: Octree & Terrain Scene Manager
+17:44:56: Plugin successfully uninstalled
+17:44:56: Unloading library Plugin_OctreeSceneManager
+17:44:56: Uninstalling plugin: GL RenderSystem
+17:44:56: Render Target 'macspace' Average FPS: 264.469 Best FPS: 301.397 Worst FPS: 23.5064
+17:44:56: Unregistering ResourceManager for type GpuProgram
+17:44:56: *******************************************
+***    Stopping OSX OpenGL Subsystem    ***
+*******************************************
+17:44:56: Unregistering ResourceManager for type Texture
+17:44:56: Plugin successfully uninstalled
+17:44:56: Unloading library RenderSystem_GL
+17:44:56: Unregistering ResourceManager for type Material

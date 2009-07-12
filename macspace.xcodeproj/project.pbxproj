@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0053F6A90BB5AF9000328359 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0053F6A80BB5AF9000328359 /* Ogre.framework */; };
+		0053F8930BB5CD9100328359 /* Ogre.framework in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 0053F6A80BB5AF9000328359 /* Ogre.framework */; };
+		0053F8A30BB5DAD800328359 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0053F8A20BB5DAD800328359 /* Info.plist */; };
+		6CCB01460CB1487000FFBA78 /* gamem.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCB01450CB1487000FFBA78 /* gamem.h */; };
+		6CCB01490CB1488A00FFBA78 /* gamem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB01480CB1488A00FFBA78 /* gamem.cpp */; };
+		6CCB05F80CB292C400FFBA78 /* laser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCB05F60CB292C400FFBA78 /* laser.cpp */; };
+		6CCB05F90CB292C400FFBA78 /* laser.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCB05F70CB292C400FFBA78 /* laser.h */; };
+		6CCBFFAD0CB135E100FFBA78 /* env.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFF9F0CB135E100FFBA78 /* env.h */; };
+		6CCBFFAE0CB135E100FFBA78 /* fighter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA00CB135E100FFBA78 /* fighter.cpp */; };
+		6CCBFFAF0CB135E100FFBA78 /* fighter.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFA10CB135E100FFBA78 /* fighter.h */; };
+		6CCBFFB00CB135E100FFBA78 /* game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA20CB135E100FFBA78 /* game.cpp */; };
+		6CCBFFB10CB135E100FFBA78 /* game.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFA30CB135E100FFBA78 /* game.h */; };
+		6CCBFFB20CB135E100FFBA78 /* macBundlePath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA40CB135E100FFBA78 /* macBundlePath.cpp */; };
+		6CCBFFB30CB135E100FFBA78 /* macBundlePath.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFA50CB135E100FFBA78 /* macBundlePath.h */; };
+		6CCBFFB40CB135E100FFBA78 /* macmain.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA60CB135E100FFBA78 /* macmain.cpp */; };
+		6CCBFFB50CB135E100FFBA78 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA70CB135E100FFBA78 /* object.cpp */; };
+		6CCBFFB60CB135E100FFBA78 /* object.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFA80CB135E100FFBA78 /* object.h */; };
+		6CCBFFB70CB135E100FFBA78 /* rocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFA90CB135E100FFBA78 /* rocket.cpp */; };
+		6CCBFFB80CB135E100FFBA78 /* rocket.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFAA0CB135E100FFBA78 /* rocket.h */; };
+		6CCBFFB90CB135E100FFBA78 /* scene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CCBFFAB0CB135E100FFBA78 /* scene.cpp */; };
+		6CCBFFBA0CB135E100FFBA78 /* scene.h in Copy Bundle Frameworks */ = {isa = PBXBuildFile; fileRef = 6CCBFFAC0CB135E100FFBA78 /* scene.h */; };
+		6CEF11C70CA6C3390023C4EA /* libois.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEF11C60CA6C3390023C4EA /* libois.a */; };
+		6CEF12F30CA6E4DC0023C4EA /* media in Resources */ = {isa = PBXBuildFile; fileRef = 6CEF12DF0CA6E4DC0023C4EA /* media */; };
+		6CEF14780CA7E0490023C4EA /* libnewton32.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CEF14770CA7E0490023C4EA /* libnewton32.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0053F8910BB5CD5200328359 /* Copy Bundle Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				0053F8930BB5CD9100328359 /* Ogre.framework in Copy Bundle Frameworks */,
+				6CCBFFAD0CB135E100FFBA78 /* env.h in Copy Bundle Frameworks */,
+				6CCBFFAF0CB135E100FFBA78 /* fighter.h in Copy Bundle Frameworks */,
+				6CCBFFB10CB135E100FFBA78 /* game.h in Copy Bundle Frameworks */,
+				6CCBFFB30CB135E100FFBA78 /* macBundlePath.h in Copy Bundle Frameworks */,
+				6CCBFFB60CB135E100FFBA78 /* object.h in Copy Bundle Frameworks */,
+				6CCBFFB80CB135E100FFBA78 /* rocket.h in Copy Bundle Frameworks */,
+				6CCBFFBA0CB135E100FFBA78 /* scene.h in Copy Bundle Frameworks */,
+				6CCB01460CB1487000FFBA78 /* gamem.h in Copy Bundle Frameworks */,
+				6CCB05F90CB292C400FFBA78 /* laser.h in Copy Bundle Frameworks */,
+			);
+			name = "Copy Bundle Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0053F69A0BB5AE2000328359 /* macspace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = macspace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0053F6A80BB5AF9000328359 /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = /Library/Frameworks/Ogre.framework; sourceTree = "<absolute>"; };
+		0053F8A20BB5DAD800328359 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CCB01450CB1487000FFBA78 /* gamem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamem.h; sourceTree = "<group>"; };
+		6CCB01480CB1488A00FFBA78 /* gamem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gamem.cpp; sourceTree = "<group>"; };
+		6CCB05F60CB292C400FFBA78 /* laser.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = laser.cpp; sourceTree = "<group>"; };
+		6CCB05F70CB292C400FFBA78 /* laser.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = laser.h; sourceTree = "<group>"; };
+		6CCBFF9F0CB135E100FFBA78 /* env.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = env.h; sourceTree = "<group>"; };
+		6CCBFFA00CB135E100FFBA78 /* fighter.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = fighter.cpp; sourceTree = "<group>"; };
+		6CCBFFA10CB135E100FFBA78 /* fighter.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = fighter.h; sourceTree = "<group>"; };
+		6CCBFFA20CB135E100FFBA78 /* game.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = game.cpp; sourceTree = "<group>"; };
+		6CCBFFA30CB135E100FFBA78 /* game.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = game.h; sourceTree = "<group>"; };
+		6CCBFFA40CB135E100FFBA78 /* macBundlePath.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = macBundlePath.cpp; sourceTree = "<group>"; };
+		6CCBFFA50CB135E100FFBA78 /* macBundlePath.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = macBundlePath.h; sourceTree = "<group>"; };
+		6CCBFFA60CB135E100FFBA78 /* macmain.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = macmain.cpp; sourceTree = "<group>"; };
+		6CCBFFA70CB135E100FFBA78 /* object.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = object.cpp; sourceTree = "<group>"; };
+		6CCBFFA80CB135E100FFBA78 /* object.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		6CCBFFA90CB135E100FFBA78 /* rocket.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = rocket.cpp; sourceTree = "<group>"; };
+		6CCBFFAA0CB135E100FFBA78 /* rocket.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = rocket.h; sourceTree = "<group>"; };
+		6CCBFFAB0CB135E100FFBA78 /* scene.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = scene.cpp; sourceTree = "<group>"; };
+		6CCBFFAC0CB135E100FFBA78 /* scene.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = scene.h; sourceTree = "<group>"; };
+		6CEF11C60CA6C3390023C4EA /* libois.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libois.a; path = ../../OgreSDK/Samples/Dependencies/lib/Release/libois.a; sourceTree = SOURCE_ROOT; };
+		6CEF12DF0CA6E4DC0023C4EA /* media */ = {isa = PBXFileReference; lastKnownFileType = folder; name = media; path = resources/media; sourceTree = "<group>"; };
+		6CEF14770CA7E0490023C4EA /* libnewton32.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnewton32.a; path = ../NewtonSDK/sdk/libnewton32.a; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0053F6980BB5AE2000328359 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0053F6A90BB5AF9000328359 /* Ogre.framework in Frameworks */,
+				6CEF11C70CA6C3390023C4EA /* libois.a in Frameworks */,
+				6CEF14780CA7E0490023C4EA /* libnewton32.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0053F68B0BB5AE1200328359 = {
+			isa = PBXGroup;
+			children = (
+				0053F6A40BB5AF4200328359 /* Source */,
+				0053F6A70BB5AF6F00328359 /* Resources */,
+				0053F6A60BB5AF5C00328359 /* External Frameworks and Libraries */,
+				0053F69B0BB5AE2000328359 /* Products */,
+				0053F8A20BB5DAD800328359 /* Info.plist */,
+			);
+			sourceTree = "<group>";
+		};
+		0053F69B0BB5AE2000328359 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0053F69A0BB5AE2000328359 /* macspace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0053F6A40BB5AF4200328359 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6CCBFF9E0CB135E100FFBA78 /* src */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		0053F6A60BB5AF5C00328359 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6CEF14770CA7E0490023C4EA /* libnewton32.a */,
+				6CEF11C60CA6C3390023C4EA /* libois.a */,
+				0053F6A80BB5AF9000328359 /* Ogre.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		0053F6A70BB5AF6F00328359 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6CEF12DF0CA6E4DC0023C4EA /* media */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6CCBFF9E0CB135E100FFBA78 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				6CCB05F60CB292C400FFBA78 /* laser.cpp */,
+				6CCB05F70CB292C400FFBA78 /* laser.h */,
+				6CCBFF9F0CB135E100FFBA78 /* env.h */,
+				6CCBFFA00CB135E100FFBA78 /* fighter.cpp */,
+				6CCBFFA10CB135E100FFBA78 /* fighter.h */,
+				6CCB01480CB1488A00FFBA78 /* gamem.cpp */,
+				6CCBFFA20CB135E100FFBA78 /* game.cpp */,
+				6CCBFFA30CB135E100FFBA78 /* game.h */,
+				6CCBFFA40CB135E100FFBA78 /* macBundlePath.cpp */,
+				6CCBFFA50CB135E100FFBA78 /* macBundlePath.h */,
+				6CCBFFA60CB135E100FFBA78 /* macmain.cpp */,
+				6CCBFFA70CB135E100FFBA78 /* object.cpp */,
+				6CCBFFA80CB135E100FFBA78 /* object.h */,
+				6CCBFFA90CB135E100FFBA78 /* rocket.cpp */,
+				6CCBFFAA0CB135E100FFBA78 /* rocket.h */,
+				6CCBFFAB0CB135E100FFBA78 /* scene.cpp */,
+				6CCBFFAC0CB135E100FFBA78 /* scene.h */,
+				6CCB01450CB1487000FFBA78 /* gamem.h */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0053F6990BB5AE2000328359 /* macspace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0053F69E0BB5AE2100328359 /* Build configuration list for PBXNativeTarget "macspace" */;
+			buildPhases = (
+				0053F6960BB5AE2000328359 /* Resources */,
+				0053F8910BB5CD5200328359 /* Copy Bundle Frameworks */,
+				0053F6970BB5AE2000328359 /* Sources */,
+				0053F6980BB5AE2000328359 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = macspace;
+			productName = macspace;
+			productReference = 0053F69A0BB5AE2000328359 /* macspace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0053F68D0BB5AE1200328359 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 0053F68E0BB5AE1200328359 /* Build configuration list for PBXProject "macspace" */;
+			hasScannedForEncodings = 0;
+			mainGroup = 0053F68B0BB5AE1200328359;
+			productRefGroup = 0053F69B0BB5AE2000328359 /* Products */;
+			projectDirPath = "";
+			targets = (
+				0053F6990BB5AE2000328359 /* macspace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0053F6960BB5AE2000328359 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0053F8A30BB5DAD800328359 /* Info.plist in Resources */,
+				6CEF12F30CA6E4DC0023C4EA /* media in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0053F6970BB5AE2000328359 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CCBFFAE0CB135E100FFBA78 /* fighter.cpp in Sources */,
+				6CCBFFB00CB135E100FFBA78 /* game.cpp in Sources */,
+				6CCBFFB20CB135E100FFBA78 /* macBundlePath.cpp in Sources */,
+				6CCBFFB40CB135E100FFBA78 /* macmain.cpp in Sources */,
+				6CCBFFB50CB135E100FFBA78 /* object.cpp in Sources */,
+				6CCBFFB70CB135E100FFBA78 /* rocket.cpp in Sources */,
+				6CCBFFB90CB135E100FFBA78 /* scene.cpp in Sources */,
+				6CCB01490CB1488A00FFBA78 /* gamem.cpp in Sources */,
+				6CCB05F80CB292C400FFBA78 /* laser.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0053F68F0BB5AE1200328359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = NO;
+				HEADER_SEARCH_PATHS = (
+					/Users/dirkfortmeier/xworkspace/NewtonSDK/sdk,
+					/Developer/Ogre/Dependencies/include/,
+					"$(inherited)",
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		0053F6900BB5AE1200328359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = i386;
+				COPY_PHASE_STRIP = YES;
+				HEADER_SEARCH_PATHS = (
+					/Users/dirkfortmeier/xworkspace/NewtonSDK/sdk,
+					/Developer/Ogre/Dependencies/include/,
+					"$(inherited)",
+				);
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+		0053F69F0BB5AE2100328359 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../OgreSDK/Samples/Dependencies/lib/Release\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../NewtonSDK/sdk\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = macspace;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		0053F6A00BB5AE2100328359 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Carbon.framework/Headers/Carbon.h";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)/../../OgreSDK/Samples/Dependencies/lib/Release\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)/../NewtonSDK/sdk\"";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Carbon,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = macspace;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0053F68E0BB5AE1200328359 /* Build configuration list for PBXProject "macspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0053F68F0BB5AE1200328359 /* Debug */,
+				0053F6900BB5AE1200328359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0053F69E0BB5AE2100328359 /* Build configuration list for PBXNativeTarget "macspace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0053F69F0BB5AE2100328359 /* Debug */,
+				0053F6A00BB5AE2100328359 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0053F68D0BB5AE1200328359 /* Project object */;
+}

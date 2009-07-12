@@ -1,0 +1,181 @@
+// Example particle systems
+
+// smoke
+Ship/Engine
+{
+    	material        	Examples/Flare
+    	particle_width  	10
+    	particle_height 	10
+    	cull_each       	true
+    	quota           	500
+    	billboard_type  	point
+	sorted				true
+	local_space		false
+    
+    	// Area emitter
+    	emitter Point
+    	{
+		colour				0 0.6 1 0.8
+		angle               		90
+        	emission_rate       		150
+        	time_to_live        		0.1
+        	direction           		0 0 -1
+        	velocity_min        		70
+        	velocity_max        		80    	
+	}
+
+
+   	affector Scaler
+   	{
+       	rate 	-30
+   	}
+
+}
+Ship/Engine2
+{
+  material        	Examples/Flare
+  particle_width  	4
+  particle_height 	4
+  cull_each       	true
+  quota           	500
+  billboard_type  	point
+  sorted				true
+  local_space		false
+
+  emitter Point
+  {
+    colour				1 0.8 0.1 0.8
+	angle               		90
+    emission_rate       		150
+    time_to_live        		0.075
+    direction           		0 0 1
+    velocity_min        		70
+    velocity_max        		80    	
+    position		0 0 0
+  }
+ 
+  affector Scaler
+  {
+   	rate 	-50
+  }
+}
+
+
+Ship/Engine3
+{
+  material        	Examples/Flare
+  particle_width  	10
+  particle_height 	10
+  cull_each       	true
+  quota           	500
+  billboard_type  	point
+  sorted				true
+  local_space		true
+
+  emitter Point
+  {
+    colour				1 0.8 0.1 0.8
+	angle               		0
+    emission_rate       		50
+    time_to_live        		0.3
+    direction           		0 0 -1
+    velocity_min        		70
+    velocity_max        		80    	
+    position		1 0 0
+  }
+  
+
+
+
+  affector Scaler
+  {
+   	rate 	-30
+  }
+}
+
+Ship/Engine4
+{
+  material        	Examples/Flare
+  particle_width  	15
+  particle_height 	15
+  cull_each       	true
+  quota           	500
+  billboard_type  	point
+  sorted				true
+  local_space		true
+
+  emitter Point
+  {
+    colour				1 0.8 0.1 0.8
+	angle               		0
+    emission_rate       		50
+    time_to_live        		0.3
+    direction           		0 0 -1
+    velocity_min        		70
+    velocity_max        		80    	
+    position		10 10 0
+  }
+
+
+  emitter Point
+  {
+    colour				1 0.8 0.1 0.8
+	angle               		0
+    emission_rate       		50
+    time_to_live        		0.3
+    direction           		0 0 -1
+    velocity_min        		70
+    velocity_max        		80    	
+    position		-10 10 0
+  }
+  
+  emitter Point
+  {
+    colour				1 0.8 0.1 0.8
+	angle               		0
+    emission_rate       		50
+    time_to_live        		0.3
+    direction           		0 0 -1
+    velocity_min        		70
+    velocity_max        		80    	
+    position		0 -2 -7
+  }    
+
+
+
+  affector Scaler
+  {
+   	rate 	-30
+  }
+}
+
+
+Ship/Laser
+{
+    	material        	Examples/Flare
+    	particle_width  	10
+    	particle_height 	10
+    	cull_each       	true
+    	quota           	500
+    	billboard_type  	point
+	sorted				true
+		local_space		true
+
+    
+    	// Area emitter
+    	emitter Point
+    	{
+		colour				1 0 0 
+		angle               		0
+        	emission_rate       		50
+        	time_to_live        		0.3
+        	direction           		0 0 -1
+        	velocity_min        		300
+        	velocity_max        		300    	
+	}
+	affector Scaler
+   	{
+       	rate 	-30
+   	}
+
+}

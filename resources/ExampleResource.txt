@@ -1,0 +1,1 @@
+Place the resources here that you would like copied into your application bundle, then delete this file.

@@ -1,0 +1,109 @@
+material Stars/Standard
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture star.png
+			}
+		}
+	}
+}
+
+material Stars/Standard2
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture stars2.png
+			}
+		}
+	}
+}
+
+material Stars/Blue
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture stars3.png
+			}
+		}
+	}
+}
+
+material Stars/Red
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture stars4.png
+			}
+		}
+	}
+}
+material Mouse/Crosshair
+{
+	technique
+	{
+		pass
+		{
+			lighting off
+			scene_blend alpha_blend
+			depth_check off
+			depth_write off
+			cull_hardware none
+			cull_software none
+
+
+			texture_unit
+			{
+				texture crosshair.png
+			}
+		}
+	}
+}
+

@@ -1,0 +1,15 @@
+material fighermat
+{
+
+	technique
+	{
+		pass
+		{
+
+			texture_unit
+			{
+				texture sfighter_Cube.jpg
+			}
+		}
+	}
+}

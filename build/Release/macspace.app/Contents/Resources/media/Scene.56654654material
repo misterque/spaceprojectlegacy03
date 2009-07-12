@@ -1,0 +1,12 @@
+material Material
+{
+
+	technique
+	{
+		pass
+		{
+			emissive 0.000000 0.000000 0.000000 1.000000
+			polygon_mode wireframe
+		}
+	}
+}
